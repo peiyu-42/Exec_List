@@ -16,9 +16,10 @@ namespace Exec_List
 			new Product{ Name="鍵盤",Price=700},
 			new Product{ Name="喇叭",Price=450},
 			new Product{ Price=123,Name="耳機"},
-
 			};
+
 			Console.WriteLine("商品和價格");
+
 			foreach (var item in items)
 			{
 				Console.WriteLine($"名稱: {item.Name}, $ {item.Price}");
